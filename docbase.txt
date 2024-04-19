@@ -1,0 +1,12 @@
+<!DOCKTYPE hmtl>
+<HTML lang="pt-br">
+
+	<head>
+		<title> ola mundo</title>
+	</head>
+	<body>
+		<h1>titulo1<h1>
+		<h2>titulo2<h2>
+		<h6>titulo6<h6>
+	</body>
+</html>

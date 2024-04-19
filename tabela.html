@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>criando tabelas</title>
+</head>
+<body>
+    <h1>Trabalhando com tabelas</h1> <!-- Titulo {H1} -->
+    <table border="1"> <!-- Começo  da tabela // {Border} <-- Cria Bordas para a tabela  -->
+        <tr> <!-- Cabeçalho   -->
+            <td colspan="1"></td> <!--{Coldspan} expandir "1" linha-->
+            <th>cod</th> 
+            <th>produto</th>
+            <th>valor</th>
+        <tr>    <!-- Primeira Linha 1 --> 
+            <td rowspan="4">Produtos</td> <!-- {RowSpan} Cria "4" Colunas para baixo -->
+          <td>1</td>
+          <td>arroz</td>
+          <td>R$5,00</td>
+        </tr>
+
+        <tr>    <!-- Segunda Linha 2 -->
+            <td>2</td>
+            <td>feijão</td>
+            <td>R$3,00</td>
+        </tr>
+
+        <tr>  <!-- Terceira linha 3 -->
+        <td>3</td>
+        <td>salada</td>
+        <td>R$2,00</td>
+        </tr>
+
+        <tr> <!-- Quarta Linha 4 -->
+            <td>4</td>
+            <td>proteina de frango</td>
+            <td>R$10,00</td>
+        </tr>
+
+        <Tr> <!-- {Coldspan} Expandir a Linha de acordo com "X" -->
+            <td rowspan="1"></td> <!-- {Rowspan} "1" Cria uma Coluna para Baixo -->
+            <td colspan="2">TOTAL</td> <!-- {Coldspan} "2" Expandir duas linhas para o lado -->
+            <td>R$20,00</td>
+        </Tr>
+
+
+    </table> <!-- {Fechamento da Tabela}  -->
+
+</body>
+</html>
